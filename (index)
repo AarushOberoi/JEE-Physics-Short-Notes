@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JEE Physics Short Notes</title>
+<meta name="description" content="Chapter-wise JEE Main Physics short notes with JEE Main PYQ focus points.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+<link rel="stylesheet" href="css/notes.css?v=11">
+</head>
+<body>
+<header class="topbar">
+  <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open chapter list">☰</button>
+  <a href="#/" class="brand"><span class="logo">Φ</span><span>JEE Physics <b>Short Notes</b> <small class="by">by Aarush Oberoi</small></span></a>
+  <div class="search-wrap">
+    <input id="search" type="search" placeholder="Search topics, formulas…  ( / )" autocomplete="off">
+    <div id="searchResults" class="search-results" hidden></div>
+  </div>
+  <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode" title="Toggle theme">◐</button>
+</header>
+<div class="layout">
+  <nav class="sidebar" id="sidebar"></nav>
+  <main id="main" class="main"></main>
+</div>
+<div class="scrim" id="scrim"></div>
+
+<script src="js/nb.js?v=11"></script>
+<script src="data/pyqs.js?v=11"></script>
+<script src="data/pyq5yr.js?v=11"></script>
+<script src="data/chapters.js?v=11"></script>
+<script src="data/ncert.js?v=11"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+<script defer src="js/notes-app.js?v=11"></script>
+</body>
+</html>
